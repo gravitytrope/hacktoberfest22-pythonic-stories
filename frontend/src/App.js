@@ -1,20 +1,13 @@
-import React, {useEffect} from 'react'
+import React from 'react'
+
+import Prompt from './components/Prompt'
 
 function App() {
 
-  useEffect (() => {
-    fetch('/story').then(
-      res => res.text() 
-    ).then(
-      (story) => {
-        console.log(story)
-      }
-    )
-  })
-  
-
   return (
-    <div>App</div>
+    <div className='prompt-page'>
+        <Prompt />
+    </div>
   )
 }
 

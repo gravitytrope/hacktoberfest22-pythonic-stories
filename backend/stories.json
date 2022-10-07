@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "prompt": "I love Python",
+        "content": [
+            "as it is awesome. This is filler sentence. This is filler sentence. This is filler sentence.", 
+            "as it is versatile and cool. This is filler sentence. This is filler sentence. This is filler sentence."
+        ]
+    },
+    {   
+        "id": 2,
+        "prompt": "Python is also",
+        "content": [
+            "fun. This is filler sentence.This is filler sentence.This is filler sentence.This is filler sentence.", 
+            "unique. This is filler sentence.This is filler sentence.This is filler sentence.This is filler sentence."
+        ]
+    }
+]
