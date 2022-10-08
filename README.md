@@ -13,7 +13,7 @@ The following is required for local dev:
 - [Node](https://nodejs.org/en/)
 - npm (would come with Node installation, type `npm -version`)
 
-## Setting up backend and starting server:
+## Setting up backend and starting server
 
 Make sure you are in the `backend` - `hacktoberfest22-pythonic-stories/backend` in your terminal or command prompt.
 
