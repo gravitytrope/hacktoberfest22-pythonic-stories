@@ -2,9 +2,9 @@ Pythonic stories is a story generation website that was built with `create-react
 
 Feel free to take a look at `CONTRIBUTING.md` for contribution guidelines and areas to contribute!
 
-# Local Development Instructions
+## Local Development Instructions
 
-## Prerequisites
+### Prerequisites
 
 The following is required for local dev:
 
@@ -13,7 +13,7 @@ The following is required for local dev:
 - [Node](https://nodejs.org/en/)
 - npm (would come with Node installation, type `npm -version`)
 
-## Setting up backend and starting server
+### Setting up backend
 
 Make sure you are in the `backend` - `hacktoberfest22-pythonic-stories/backend` in your terminal or command prompt.
 
@@ -32,7 +32,7 @@ flask run
 
 Awesome! Now the server is up and running!
 
-## Setting up frontend
+### Setting up frontend
 
 - Install dependences and generate the `package-lock.json`
 
@@ -48,7 +48,7 @@ npm start
 
 And you're all set up! Navigate to http://localhost:3000/story, and hit `read new story` to see story content.
 
-## Troubleshooting
+### Troubleshooting
 
 If you run into an error such as `Could not proxy request /pusher/auth from localhost:3000 to http://localhost:5000 (ECONNREFUSED)`, please make sure you have the correct port and address of the running the server under `proxy` in `package.json`.
 
